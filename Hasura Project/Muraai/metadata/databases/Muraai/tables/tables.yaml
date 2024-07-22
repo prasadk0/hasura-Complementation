@@ -1,0 +1,16 @@
+# []
+- table:
+    schema: public
+    name: ap_comments
+- table:
+    schema: public
+    name: invoice_header_status
+- table:
+    schema: public
+    name: invoice_header_audit
+- table:
+    schema: public
+    name: invoice_details
+- table:
+    schema: public
+    name: invoice_details_audit

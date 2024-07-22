@@ -1,0 +1,8 @@
+-- Could not auto-generate a down migration.
+-- Please write an appropriate down migration for the SQL below:
+-- CREATE TABLE user_details (
+--     id SERIAL PRIMARY KEY,
+--     username VARCHAR(100) NOT NULL,
+--     email VARCHAR(255) UNIQUE NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );

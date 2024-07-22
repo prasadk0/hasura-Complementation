@@ -1,0 +1,13 @@
+- name: Muraai
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgresql://postgres:Muraai%40123@postgres:5432/muraai
+      isolation_level: read-committed
+      pool_settings:
+        connection_lifetime: 600
+        idle_timeout: 180
+        max_connections: 50
+        retries: 1
+      use_prepared_statements: true
+  tables: "!include Muraai/tables/tables.yaml"
